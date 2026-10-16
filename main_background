@@ -1,0 +1,72 @@
+  <!-- Product area -->
+
+     <div class="main">
+        <div class="navigate"></div>
+
+        
+
+
+        <div class="main_product">
+            <div class="product_box"></div>
+            <div class="product_box"></div>
+            <div class="product_box"></div>
+            <div class="product_box"></div>
+            <div class="product_box"></div>
+            <div class="product_box"></div>
+            <div class="product_box"></div>
+            <div class="product_box"></div>
+            <div class="product_box"></div>
+        </div> 
+        
+        
+
+    </div>
+
+    <-------Css------------->
+
+    
+.main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navigate {
+    width: 22%;
+    height: 10rem;
+    background-color: #ccc;
+
+    position: static;
+     border-radius: 30px;
+    top: 2rem;
+    align-self: flex-start;
+}
+
+.main_product {
+    width: 66%;
+    height: 59rem;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    row-gap: 2rem;
+}
+
+
+.product_box{
+    width: 90%;
+    height: 25rem;
+    border-radius: 30px;
+     background-color: #ccc;
+}
+
+
+
+
+
+
+
+    
+
+    <
