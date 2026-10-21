@@ -1,0 +1,103 @@
+ <div class="button_tag">
+                    <div class="add_cart"><button type="submit"><h4>Add to Cart</h4></button></div>
+                    <div class="phone_cart"><button type="submit"><i class="bi-cart"></i></button></div>
+                    <div class="buynow"><button type="submit">Buy Now</button></div>
+                    <div class="phone_buy"><button type="submit"><i class="bi-heart"></i></button></div>
+                </div>
+
+
+.Product_title{
+    padding-left: 0.5rem;
+    margin-top: 1rem;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.review{
+    display: grid;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    margin-top: 0.5rem;
+}
+
+
+.review i{
+    color: #e48202;
+}
+
+.reviews{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+
+
+.button_tag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.5rem;
+padding-right: 0.5rem;
+margin-top: 0.5rem;
+}
+
+.add_cart{
+    display: none;
+}
+
+.phone_cart button{
+    height: 3rem;
+    border-radius: 30px;
+    width: 3rem;
+      font-size: 18px;
+background-color: transparent;
+    border: solid #ccc 1px;
+    
+}
+
+.buynow{
+    display: none;
+}
+
+.phone_buy button{
+  height: 3rem;
+    border-radius: 30px;
+    color: #ffff;
+    font-size: 18px;
+    width: 3rem;
+background-color: #000;
+    border: solid #ccc 1px;  
+}
+
+
+
+
+
+@media (min-width: 1280px) {
+
+
+.add_cart{
+    display: block;
+}
+
+.buynow{
+    display: block;
+}
+
+
+.phone_cart{
+    display: none;
+}
+
+.phone_buy{
+    display: none;
+}
+
+
+
+
+
+}
