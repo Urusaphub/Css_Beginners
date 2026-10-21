@@ -1,0 +1,76 @@
+ <div class="Product_title">Music Box ( mp 3 )</div>
+
+                <div class="review">
+                    <div class="reviews">
+                        <i class="bi-star-fill"></i>
+                        <p>5.0 Reviews</p>
+                    </div>
+                    <div class="price"><h5>$200</h5></div>
+                </div>
+
+                <div class="button_tag">
+                    <div class="add_cart"><button type="submit">Add to Cart</button></div>
+                    <div class="buynow"><button type="submit">Buy Now</button></div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+.Product_title{
+    padding-left: 1rem;
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+.review{
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+
+.review i{
+    color: #e48202;
+}
+
+.reviews{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.button_tag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+padding-right: 1rem;
+margin-top: 0.5rem;
+}
+
+.add_cart button{
+    height: 3rem;
+    border-radius: 30px;
+    width: 7rem;
+background-color: transparent;
+    border: solid #ccc 1px;
+    
+}
+
+.buynow button{
+  height: 3rem;
+    border-radius: 30px;
+    color: #ffff;
+    width: 7rem;
+background-color: #000;
+    border: solid #ccc 1px;  
+}
