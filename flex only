@@ -55,4 +55,36 @@
     height: 17rem;
     background-color: #ccc;
 
-} 
+}   
+
+
+
+.........................Grid Part.......................................
+.parent{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+.mother_box{
+     width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    place-items: center;
+
+    row-gap: 2rem;
+ 
+}
+
+
+.box{
+    width: 90%;
+    height: 17rem;
+    background-color: #ccc;
+}
