@@ -1,0 +1,58 @@
+ <div class="parent">
+        <div class="mother_box">
+
+
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            
+
+
+            
+
+        </div>
+    </div>
+
+
+........................This is CSS...Flex Only...............................................
+
+.parent{
+    width: 100%;
+    height: auto;
+
+
+    display:flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+
+}
+
+.mother_box{
+    width: 90%;
+    height: auto;
+
+
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    flex-wrap: wrap;
+   
+    
+
+}
+
+.box{
+    width: 22%;
+    height: 17rem;
+    background-color: #ccc;
+
+} 
