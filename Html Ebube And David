@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="nav.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+
+    <nav>
+
+
+
+        <div class="mother_nav">
+
+                  
+        <div class="name"><h2>Ellen</h2></div>
+
+
+        <!-- -------------Name Ends here---------------------- -->
+
+        <div class="tag">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+
+        
+        <!-- -------------Tags Ends here---------------------- -->
+
+        <div class="profile">
+            
+           
+            <div class="person"><i class="material-icons">person</i></div>
+            <div class="blog"><i class="material-icons">rss_feed</i></div>
+            <div class="sign_up"><a href="#">Sign up</a></div>
+
+            
+
+
+
+
+        </div>
+        
+        <!-- -------------Profile Ends here---------------------- -->
+
+        <div class="menu">
+            <i class="material-icons">menu</i>
+        </div>
+
+        
+        <!-- -------------Menu Ends here---------------------- -->
+
+
+    
+
+        </div>
+
+        
+        <!-- ------------Mother Nav Ends here---------------------- -->
+
+         
+   
+
+
+
+    </nav>
+
+    
+        <!-- -------------Nav Ends here---------------------- -->
+
+
+
+        <div class="background">
+
+            <div class="mother_background">
+
+                <div class="text_bacground">
+                    <h1>Discover the 
+                        World's Hiddens Wonders </h1>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Magni officia vel possimus quaerat adipisci iusto nihil!
+
+                        </p>
+
+
+                        <button><a href="#">Read More</a></button>
+                </div>
+
+
+                <!-- --------------text_bacground Ends here------------------- -->
+
+
+                <div class="box_background">
+
+                    <div class="box_larger"></div>
+
+                    <div class="minor_box">
+                        <div class="box1"></div>
+                        <div class="box2"></div>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+    
+</body>
+</html>
