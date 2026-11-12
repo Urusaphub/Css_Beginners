@@ -1,0 +1,225 @@
+ <div class="hero_section">
+
+        
+
+
+            <div class="hero_mother">
+
+
+                <div class="top_des"><h2>Top Destination</h2></div> 
+
+
+                
+
+
+
+                <div class="tabs">
+                    <div class="div_tabs"></div>
+                    <div class="div_tabs"></div>
+                    <div class="div_tabs"></div>
+                    <div class="div_tabs"></div>
+                    <div class="div_tabs"></div>
+                    <div class="div_tabs"></div>
+                    <div class="div_tabs"></div>
+                    <div class="div_tabs"></div>
+                </div>
+
+
+
+
+                <div class="hero_box">
+                <div class="mother_box">
+                    <div class="hero_box_slag"></div>
+                    <div class="hero_box_slag"></div>
+                    <div class="hero_box_slag"></div>
+                    <div class="hero_box_slag"></div>
+                </div>
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+        
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------Laptop css-------------- */
+.hero_section{
+    width: 100%;
+    height: auto;
+    display: flex;  
+    justify-content: center;
+    margin-top: 3rem;}
+
+.hero_mother{
+    width: 90%;
+    height: auto;}
+
+
+
+.top_des h2{
+    font-size: 30px;
+    font-weight: 500;}
+
+
+.tabs{
+    width: 100%;
+    margin-top: 1.5rem;
+    height: auto;
+    display: flex;
+    justify-content: space-between;}
+
+
+.div_tabs{
+    width: 12%;
+    height: 3rem;
+    background-color:#fff;
+    border: solid #00000065 1.5px;
+    border-radius: 30px;
+}
+
+
+
+.hero_box{
+    width: 100%;
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.mother_box{
+    width: 100%;
+   height: auto;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+.hero_box_slag{
+    width: 24%;
+    height: 20rem;
+    background-color: #cccccc41;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------Phone starts below-------------------------------- */
+
+
+.hero_section{
+    width: 100%;
+    height: auto;
+
+    display: flex;  
+    justify-content: center;
+    margin-top: 3rem;
+
+
+
+}
+
+.hero_mother{
+    width: 90%;
+    height: auto;
+
+    
+}
+
+
+
+
+.top_des h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+
+.tabs{
+    width: 100%;
+    margin-top: 1rem;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    row-gap: 1rem;
+    
+}
+
+
+.div_tabs{
+    width: 90%;
+    height: 3rem;
+    background-color:#fff;
+    border: solid #00000065 1.5px;
+    border-radius: 30px;
+}
+
+
+
+.hero_box{
+    width: 100%;
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.mother_box{
+    width: 100%;
+   height: auto;
+
+   display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 1rem;
+  
+}
+
+
+.hero_box_slag{
+    width: 93%;
+    height: 18rem;
+    background-color: #cccccc41;
+    border-radius: 20px;
+}
