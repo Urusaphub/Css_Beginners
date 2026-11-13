@@ -1,0 +1,372 @@
+
+        <div class="latest">
+            <div class="mother_latest">
+
+                <div class="div_recomm">
+                    <h2>Latest Stories</h2>
+                    <button>Recommendation</button>
+                </div>
+
+
+
+                <div class="div_latest">
+
+                    <div class="lates_comp">
+                        <div class="image_bloc"></div>
+
+                        
+                        <div class="text_bloc">
+                            <article>
+                                Los Angelos Food and Drink Guilde : 10 thing to try in Los Angelos California
+                            </article>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus laborum exercitationem quaerat perspiciatis voluptates omnis aperiam architecto error quam!</p>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="latest_recent">
+
+
+                        <div class="div_box">
+                            <div class="box_crete"></div>
+                            <div class="box_text">
+                                <h4>15 South London Marinate: You"ll <br>
+                                     Love : Best Market in South London
+                                 </h4>
+                                 <p>
+                                    2nd November 2026
+                                 </p>
+                            </div>
+                        </div>
+
+
+                         <div class="div_box">
+                            <div class="box_crete"></div>
+                            <div class="box_text">
+                                <h4>15 South London Marinate: You"ll <br>
+                                     Love : Best Market in South London
+                                 </h4>
+                                 <p>
+                                    2nd November 2026
+                                 </p>
+                            </div>
+                        </div>
+
+
+                         <div class="div_box">
+                            <div class="box_crete"></div>
+                            <div class="box_text">
+                                <h4>15 South London Marinate: You"ll <br>
+                                     Love : Best Market in South London
+                                 </h4>
+                                 <p>
+                                    2nd November 2026
+                                 </p>
+                            </div>
+                        </div>
+
+                         
+                        
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+/* ---------------Phone Part-------------------------- */
+
+
+
+.latest{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    margin-top:3rem;
+}
+
+
+.mother_latest{
+    width: 90%;
+    height: auto;
+    background-color:transparent;
+}
+
+.div_recomm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.div_recomm h2{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.div_recomm button{
+    width: 8rem;
+    height: 3rem;
+    border: solid 1.5px #000;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12.5px;
+}
+   
+
+
+
+
+
+
+.div_latest{
+    width: 100%;
+    display: grid;
+
+    
+    row-gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+.lates_comp{
+    width: 100%;
+    height: auto;
+    background-color:transparent;
+}
+
+
+
+.image_bloc{
+    width: 100%;
+    height: 17rem;
+    background-color: #cccccc41;
+    border-radius: 30px;
+}
+
+.text_bloc article{
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 1rem;
+}
+
+.text_bloc p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+
+
+
+.latest_recent{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: grid;
+    row-gap: 1rem;
+}
+
+
+
+
+
+
+
+
+.div_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+   
+}
+
+.box_crete{
+    width: 44% ;
+    background-color: #cccccc41;
+    height: 8rem;
+    border-radius: 30px;
+}
+
+.box_text{
+    width: 50%;
+}
+
+
+.box_text h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+.box_text p{
+    margin-top: 1rem;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+/* ------------------Laptops ------------------------- */
+
+.latest{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    margin-top:3rem;
+}
+
+
+.mother_latest{
+    width: 90%;
+    height: auto;
+    background-color:transparent;
+}
+
+.div_recomm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.div_recomm h2{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.div_recomm button{
+    width: 12rem;
+    height: 3rem;
+    border: solid 1.5px #000;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: unset;
+}
+
+
+.div_latest{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+
+.lates_comp{
+    width: 48%;
+    height: auto;
+    background-color: transparent;
+     align-self: flex-start;
+}
+
+.image_bloc{
+    width: 100%;
+    height: 17rem;
+    background-color: #cccccc41;
+    border-radius: 30px;
+}
+
+.text_bloc article{
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 1rem;
+}
+
+.text_bloc p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+
+
+.latest_recent{
+    width: 48%;
+    height: auto;
+    background-color: transparent;
+  
+display: grid;
+row-gap: 1rem;
+    align-self: flex-start;
+}
+
+.div_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+
+   
+}
+
+.box_crete{
+    width: 44% ;
+    background-color: #cccccc41;
+    height: 10rem;
+    border-radius: 30px;
+}
+
+
+.box_text h4{
+    font-size: 17px;
+    font-weight: 500;
+}
+.box_text p{
+    margin-top: 1rem;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
