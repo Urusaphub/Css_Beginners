@@ -1,0 +1,263 @@
+
+<div class="trekker_text">
+<div class="mothers_text">
+    <h2>Trekker's Highlight</h2>
+</div>
+</div>
+
+
+<div class="trekker_highlight">
+    <div class="mother_trekker">
+        <div class="text_trekk">
+
+            <div class="text_profile">
+
+                <div class="image_trekker"></div>
+                <div class="prrofile_txt">
+                    <h3>William Simon</h3>
+                    <p>Moderator</p>
+                </div>
+
+            </div>
+
+            <div class="profile_artcle">
+                <article>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint quas facilis eveniet iusto reprehenderit provident quod animi autem iste ipsam laboriosam ullam aliquid maxime ipsa ea, amet magni, adipisci placeat nulla itaque reiciendis blanditiis aliquam!
+                </article>
+            </div>
+
+
+
+
+
+        </div>
+
+
+        <div class="vido_trekk">
+            <div class="bigger_trekker"></div>
+            <div class="smaller_trekker"></div>
+        </div>
+    </div>
+</div>
+
+
+/* --------------------Laptop media--------------------- */
+.trekker_text{
+display: flex;
+justify-content: center;
+    width: 100%;
+}
+
+.mothers_text{
+    width: 90%;
+}
+
+.trekker_text h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+}
+
+
+.trekker_highlight{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.mother_trekker{
+    width: 90%;
+    height: auto;
+    margin-top: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.text_trekk{
+    width: 47%;
+    align-self: flex-start;
+    height: auto;
+    background-color: transparent;
+    
+}
+
+
+
+
+.text_profile{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.prrofile_txt h3{
+font-weight: 500;
+}
+
+
+
+.image_trekker{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    background-color: #cccccc41;
+}
+
+.profile_artcle article{
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.vido_trekk{
+    width: 50%;
+    align-self: flex-start;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bigger_trekker{
+width: 54%;
+height: 18rem;
+background-color: #cccccc41;
+border-radius: 12px;
+}
+
+
+.smaller_trekker{
+    width: 43%;
+    height: 12rem;
+    background-color: #cccccc41;
+    border-radius: 12px;
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------Phone media----------------------------------------- */
+.trekker_text{
+display: flex;
+justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.mothers_text{
+    width: 90%;
+}
+
+.trekker_text h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+
+.trekker_highlight{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.mother_trekker{
+    width: 90%;
+    height: auto;
+    margin-top: 1rem;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 1rem;
+    display: grid;
+    justify-content: space-between;
+}
+
+
+.text_trekk{
+    width: 100%;
+    align-self: flex-start;
+    height: auto;
+    background-color: transparent;
+    
+}
+
+
+
+
+
+
+.text_profile{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.prrofile_txt h3{
+font-weight: 500;
+}
+
+
+
+.image_trekker{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    background-color: #cccccc41;
+}
+
+.profile_artcle article{
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+.vido_trekk{
+    width: 100%;
+    align-self: flex-start;
+    height: 20rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bigger_trekker{
+width: 54%;
+height: 18rem;
+background-color: #cccccc41;
+border-radius: 12px;
+}
+
+
+.smaller_trekker{
+    width: 43%;
+    height: 12rem;
+    background-color: #cccccc41;
+    border-radius: 12px;
+}
+
